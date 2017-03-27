@@ -13,7 +13,7 @@ a=[1,"a",1,2,3,32,"a",3,"w","e","d","f",4,3,"f",5,7,9,"g",5,"c",7,9,"d",1,23,3]
 #a=[1,1,2,"a",1,2,3,4,5,'b','c','d',12,23,'e',123,'a','b',12,121,1,'a']
 #a=['c','a','b','d']
 #a=[1,2,3,4]
-print a + "\n"
+#print a + "\n"
 #a =['a',3,'w','e','d','f',4,3,'f',5,'g',7,9]
 if all(isinstance(item, str) for item in a):
         print "there are no integers in the list"
